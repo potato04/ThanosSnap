@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BA017A122760D68005B59D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA017A022760D68005B59D3 /* AppDelegate.swift */; };
+		4BA017A322760D68005B59D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA017A222760D68005B59D3 /* ViewController.swift */; };
+		4BA017A622760D68005B59D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017A422760D68005B59D3 /* Main.storyboard */; };
+		4BA017A822760D6B005B59D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017A722760D6B005B59D3 /* Assets.xcassets */; };
+		4BA017AB22760D6B005B59D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017A922760D6B005B59D3 /* LaunchScreen.storyboard */; };
+		4BA017BC22760E7A005B59D3 /* thanos_dust_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017B422760E79005B59D3 /* thanos_dust_5.mp3 */; };
+		4BA017BD22760E7A005B59D3 /* thanos_reverse_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017B522760E79005B59D3 /* thanos_reverse_sound.mp3 */; };
+		4BA017BE22760E7A005B59D3 /* thanos_dust_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017B622760E79005B59D3 /* thanos_dust_2.mp3 */; };
+		4BA017BF22760E7A005B59D3 /* thanos_dust_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017B722760E79005B59D3 /* thanos_dust_4.mp3 */; };
+		4BA017C022760E7A005B59D3 /* thanos_dust_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017B822760E79005B59D3 /* thanos_dust_3.mp3 */; };
+		4BA017C122760E7A005B59D3 /* thanos_dust_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017B922760E79005B59D3 /* thanos_dust_1.mp3 */; };
+		4BA017C222760E7A005B59D3 /* thanos_dust_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017BA22760E79005B59D3 /* thanos_dust_6.mp3 */; };
+		4BA017C322760E7A005B59D3 /* thanos_snap_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017BB22760E7A005B59D3 /* thanos_snap_sound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BA0179D22760D68005B59D3 /* ThanosSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThanosSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA017A022760D68005B59D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BA017A222760D68005B59D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BA017A522760D68005B59D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BA017A722760D6B005B59D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BA017AA22760D6B005B59D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BA017AC22760D6B005B59D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA017B422760E79005B59D3 /* thanos_dust_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_dust_5.mp3; sourceTree = "<group>"; };
+		4BA017B522760E79005B59D3 /* thanos_reverse_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_reverse_sound.mp3; sourceTree = "<group>"; };
+		4BA017B622760E79005B59D3 /* thanos_dust_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_dust_2.mp3; sourceTree = "<group>"; };
+		4BA017B722760E79005B59D3 /* thanos_dust_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_dust_4.mp3; sourceTree = "<group>"; };
+		4BA017B822760E79005B59D3 /* thanos_dust_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_dust_3.mp3; sourceTree = "<group>"; };
+		4BA017B922760E79005B59D3 /* thanos_dust_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_dust_1.mp3; sourceTree = "<group>"; };
+		4BA017BA22760E79005B59D3 /* thanos_dust_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_dust_6.mp3; sourceTree = "<group>"; };
+		4BA017BB22760E7A005B59D3 /* thanos_snap_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_snap_sound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BA0179A22760D68005B59D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BA0179422760D68005B59D3 = {
+			isa = PBXGroup;
+			children = (
+				4BA0179F22760D68005B59D3 /* ThanosSnap */,
+				4BA0179E22760D68005B59D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BA0179E22760D68005B59D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BA0179D22760D68005B59D3 /* ThanosSnap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA0179F22760D68005B59D3 /* ThanosSnap */ = {
+			isa = PBXGroup;
+			children = (
+				4BA017B222760DA2005B59D3 /* Supporting Files */,
+				4BA017B322760E3E005B59D3 /* Sounds */,
+				4BA017A022760D68005B59D3 /* AppDelegate.swift */,
+				4BA017A222760D68005B59D3 /* ViewController.swift */,
+				4BA017A422760D68005B59D3 /* Main.storyboard */,
+			);
+			path = ThanosSnap;
+			sourceTree = "<group>";
+		};
+		4BA017B222760DA2005B59D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BA017A722760D6B005B59D3 /* Assets.xcassets */,
+				4BA017A922760D6B005B59D3 /* LaunchScreen.storyboard */,
+				4BA017AC22760D6B005B59D3 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BA017B322760E3E005B59D3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4BA017B922760E79005B59D3 /* thanos_dust_1.mp3 */,
+				4BA017B622760E79005B59D3 /* thanos_dust_2.mp3 */,
+				4BA017B822760E79005B59D3 /* thanos_dust_3.mp3 */,
+				4BA017B722760E79005B59D3 /* thanos_dust_4.mp3 */,
+				4BA017B422760E79005B59D3 /* thanos_dust_5.mp3 */,
+				4BA017BA22760E79005B59D3 /* thanos_dust_6.mp3 */,
+				4BA017B522760E79005B59D3 /* thanos_reverse_sound.mp3 */,
+				4BA017BB22760E7A005B59D3 /* thanos_snap_sound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BA0179C22760D68005B59D3 /* ThanosSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA017AF22760D6B005B59D3 /* Build configuration list for PBXNativeTarget "ThanosSnap" */;
+			buildPhases = (
+				4BA0179922760D68005B59D3 /* Sources */,
+				4BA0179A22760D68005B59D3 /* Frameworks */,
+				4BA0179B22760D68005B59D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThanosSnap;
+			productName = ThanosSnap;
+			productReference = 4BA0179D22760D68005B59D3 /* ThanosSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BA0179522760D68005B59D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = potato04;
+				TargetAttributes = {
+					4BA0179C22760D68005B59D3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4BA0179822760D68005B59D3 /* Build configuration list for PBXProject "ThanosSnap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BA0179422760D68005B59D3;
+			productRefGroup = 4BA0179E22760D68005B59D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BA0179C22760D68005B59D3 /* ThanosSnap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BA0179B22760D68005B59D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA017BD22760E7A005B59D3 /* thanos_reverse_sound.mp3 in Resources */,
+				4BA017AB22760D6B005B59D3 /* LaunchScreen.storyboard in Resources */,
+				4BA017A822760D6B005B59D3 /* Assets.xcassets in Resources */,
+				4BA017A622760D68005B59D3 /* Main.storyboard in Resources */,
+				4BA017C222760E7A005B59D3 /* thanos_dust_6.mp3 in Resources */,
+				4BA017C122760E7A005B59D3 /* thanos_dust_1.mp3 in Resources */,
+				4BA017BF22760E7A005B59D3 /* thanos_dust_4.mp3 in Resources */,
+				4BA017C022760E7A005B59D3 /* thanos_dust_3.mp3 in Resources */,
+				4BA017BE22760E7A005B59D3 /* thanos_dust_2.mp3 in Resources */,
+				4BA017C322760E7A005B59D3 /* thanos_snap_sound.mp3 in Resources */,
+				4BA017BC22760E7A005B59D3 /* thanos_dust_5.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BA0179922760D68005B59D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA017A322760D68005B59D3 /* ViewController.swift in Sources */,
+				4BA017A122760D68005B59D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BA017A422760D68005B59D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BA017A522760D68005B59D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BA017A922760D6B005B59D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BA017AA22760D6B005B59D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BA017AD22760D6B005B59D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BA017AE22760D6B005B59D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BA017B022760D6B005B59D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55ER5J85UF;
+				INFOPLIST_FILE = "$(SRCROOT)/ThanosSnap/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.potato04.ThanosSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BA017B122760D6B005B59D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55ER5J85UF;
+				INFOPLIST_FILE = "$(SRCROOT)/ThanosSnap/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.potato04.ThanosSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BA0179822760D68005B59D3 /* Build configuration list for PBXProject "ThanosSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA017AD22760D6B005B59D3 /* Debug */,
+				4BA017AE22760D6B005B59D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA017AF22760D6B005B59D3 /* Build configuration list for PBXNativeTarget "ThanosSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA017B022760D6B005B59D3 /* Debug */,
+				4BA017B122760D6B005B59D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BA0179522760D68005B59D3 /* Project object */;
+}
