@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		4BA017A122760D68005B59D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA017A022760D68005B59D3 /* AppDelegate.swift */; };
 		4BA017A322760D68005B59D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA017A222760D68005B59D3 /* ViewController.swift */; };
-		4BA017A622760D68005B59D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017A422760D68005B59D3 /* Main.storyboard */; };
-		4BA017A822760D6B005B59D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017A722760D6B005B59D3 /* Assets.xcassets */; };
 		4BA017AB22760D6B005B59D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017A922760D6B005B59D3 /* LaunchScreen.storyboard */; };
 		4BA017BC22760E7A005B59D3 /* thanos_dust_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017B422760E79005B59D3 /* thanos_dust_5.mp3 */; };
 		4BA017BD22760E7A005B59D3 /* thanos_reverse_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017B522760E79005B59D3 /* thanos_reverse_sound.mp3 */; };
@@ -20,14 +18,16 @@
 		4BA017C122760E7A005B59D3 /* thanos_dust_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017B922760E79005B59D3 /* thanos_dust_1.mp3 */; };
 		4BA017C222760E7A005B59D3 /* thanos_dust_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017BA22760E79005B59D3 /* thanos_dust_6.mp3 */; };
 		4BA017C322760E7A005B59D3 /* thanos_snap_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017BB22760E7A005B59D3 /* thanos_snap_sound.mp3 */; };
+		4BA017C522760F1D005B59D3 /* AnimatableSpriteLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA017C422760F1D005B59D3 /* AnimatableSpriteLayer.swift */; };
+		4BA017C72277108C005B59D3 /* ThanosGauntlet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA017C62277108C005B59D3 /* ThanosGauntlet.swift */; };
+		4BA017D3227A10B8005B59D3 /* DustEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA017D2227A10B8005B59D3 /* DustEffectView.swift */; };
+		4BA017D7227A1110005B59D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA017D6227A1110005B59D3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BA0179D22760D68005B59D3 /* ThanosSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThanosSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA017A022760D68005B59D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BA017A222760D68005B59D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4BA017A522760D68005B59D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4BA017A722760D6B005B59D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BA017AA22760D6B005B59D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BA017AC22760D6B005B59D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BA017B422760E79005B59D3 /* thanos_dust_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_dust_5.mp3; sourceTree = "<group>"; };
@@ -38,6 +38,10 @@
 		4BA017B922760E79005B59D3 /* thanos_dust_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_dust_1.mp3; sourceTree = "<group>"; };
 		4BA017BA22760E79005B59D3 /* thanos_dust_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_dust_6.mp3; sourceTree = "<group>"; };
 		4BA017BB22760E7A005B59D3 /* thanos_snap_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanos_snap_sound.mp3; sourceTree = "<group>"; };
+		4BA017C422760F1D005B59D3 /* AnimatableSpriteLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableSpriteLayer.swift; sourceTree = "<group>"; };
+		4BA017C62277108C005B59D3 /* ThanosGauntlet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanosGauntlet.swift; sourceTree = "<group>"; };
+		4BA017D2227A10B8005B59D3 /* DustEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DustEffectView.swift; sourceTree = "<group>"; };
+		4BA017D6227A1110005B59D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,9 @@
 				4BA017B322760E3E005B59D3 /* Sounds */,
 				4BA017A022760D68005B59D3 /* AppDelegate.swift */,
 				4BA017A222760D68005B59D3 /* ViewController.swift */,
-				4BA017A422760D68005B59D3 /* Main.storyboard */,
+				4BA017D2227A10B8005B59D3 /* DustEffectView.swift */,
+				4BA017C422760F1D005B59D3 /* AnimatableSpriteLayer.swift */,
+				4BA017C62277108C005B59D3 /* ThanosGauntlet.swift */,
 			);
 			path = ThanosSnap;
 			sourceTree = "<group>";
@@ -82,7 +88,7 @@
 		4BA017B222760DA2005B59D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BA017A722760D6B005B59D3 /* Assets.xcassets */,
+				4BA017D6227A1110005B59D3 /* Assets.xcassets */,
 				4BA017A922760D6B005B59D3 /* LaunchScreen.storyboard */,
 				4BA017AC22760D6B005B59D3 /* Info.plist */,
 			);
@@ -164,8 +170,7 @@
 			files = (
 				4BA017BD22760E7A005B59D3 /* thanos_reverse_sound.mp3 in Resources */,
 				4BA017AB22760D6B005B59D3 /* LaunchScreen.storyboard in Resources */,
-				4BA017A822760D6B005B59D3 /* Assets.xcassets in Resources */,
-				4BA017A622760D68005B59D3 /* Main.storyboard in Resources */,
+				4BA017D7227A1110005B59D3 /* Assets.xcassets in Resources */,
 				4BA017C222760E7A005B59D3 /* thanos_dust_6.mp3 in Resources */,
 				4BA017C122760E7A005B59D3 /* thanos_dust_1.mp3 in Resources */,
 				4BA017BF22760E7A005B59D3 /* thanos_dust_4.mp3 in Resources */,
@@ -183,6 +188,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA017D3227A10B8005B59D3 /* DustEffectView.swift in Sources */,
+				4BA017C72277108C005B59D3 /* ThanosGauntlet.swift in Sources */,
+				4BA017C522760F1D005B59D3 /* AnimatableSpriteLayer.swift in Sources */,
 				4BA017A322760D68005B59D3 /* ViewController.swift in Sources */,
 				4BA017A122760D68005B59D3 /* AppDelegate.swift in Sources */,
 			);
@@ -191,14 +199,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4BA017A422760D68005B59D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BA017A522760D68005B59D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4BA017A922760D6B005B59D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
